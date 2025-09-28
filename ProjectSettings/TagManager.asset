@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Boost
   - Obstacles
+  - Floor
+  - Left
+  - Right
+  - Platform
   layers:
   - Default
   - TransparentFX
