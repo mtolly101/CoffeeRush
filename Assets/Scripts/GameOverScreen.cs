@@ -9,13 +9,19 @@ public class GameOverScreen : MonoBehaviour
     public TextMeshProUGUI gameOverText;
     public TextMeshProUGUI finalScoreText;
     
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Hide game over screen at start
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
         }
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+ 
     }
     
     public void ShowWinScreen()
@@ -23,12 +29,12 @@ public class GameOverScreen : MonoBehaviour
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-            
+
             if (gameOverText != null)
             {
                 gameOverText.text = "You win :)";
             }
-            
+
             if (finalScoreText != null)
             {
                 ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
@@ -62,16 +68,9 @@ public class GameOverScreen : MonoBehaviour
         }
     }
     
-    // Call this from a button
     public void RestartGame()
     {
-        Time.timeScale = 1f; // Resume game time
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-    
-    // Call this from a button  
-    public void QuitGame()
-    {
-        Application.Quit();
     }
 }

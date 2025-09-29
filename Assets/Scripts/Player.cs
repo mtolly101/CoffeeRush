@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     private bool isGrounded;
     private Rigidbody2D rb;
     public float jumpUp = 6.7f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -54,7 +55,6 @@ public class Player : MonoBehaviour
 
         transform.Translate(steer, 0, 0);
         // transform.Rotate(0, 0, steerAmount);
-        
     }
     
     void OnCollisionEnter2D(Collision2D collision)

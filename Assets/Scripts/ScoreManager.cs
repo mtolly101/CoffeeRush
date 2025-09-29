@@ -23,7 +23,6 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int points)
     {
         score = score + points;
-        Debug.Log("Score is now: " + score);
         UpdateScoreDisplay();
 
         if (score >= winScore)
@@ -37,22 +36,22 @@ public class ScoreManager : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = "Score: " + score;
-            Debug.Log("Updated score display to: Score: " + score);
         }
         else
         {
-            Debug.Log("ERROR: scoreText is null!");
+            Debug.Log("Error in score");
         }
     }
 
     void YouWin()
     {
-        Debug.Log("YOU WIN!");
+        TimerManager timer = FindObjectOfType<TimerManager>();
+        if (timer != null) timer.StopTimer();
 
         // Stop the game
         Time.timeScale = 0f;
 
-        // Find and show win screen
+        // Win!!
         GameOverScreen gameOverScreen = FindObjectOfType<GameOverScreen>();
         if (gameOverScreen != null)
         {

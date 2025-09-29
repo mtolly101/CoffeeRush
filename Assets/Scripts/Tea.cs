@@ -4,21 +4,32 @@ public class Tea : MonoBehaviour
 {
     private Vector3 originalPosition;
     private bool isCollected = false;
+    public ParticleSystem teaEffect;
     
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        // Remember where this tea spill was placed
         originalPosition = transform.position;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
     }
     
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !isCollected)
         {
-            Debug.Log("Tea spill hit!");
             isCollected = true;
+
+            if (teaEffect != null)
+            {
+                Instantiate(teaEffect, transform.position, Quaternion.identity);
+            }
             
-            // Take damage
+            // Damage
             GameObject healthManagerObj = GameObject.Find("HealthManager");
             if (healthManagerObj != null)
             {
@@ -29,23 +40,20 @@ public class Tea : MonoBehaviour
                 }
             }
             
-            // Hide the tea spill
+            // Hide teas
             GetComponent<SpriteRenderer>().enabled = false;
             GetComponent<Collider2D>().enabled = false;
             
-            // Respawn after 5 seconds
-            Invoke("RespawnTea", 5f);
+            Invoke("RespawnTea", 10f);
         }
     }
     
+    // Respawn teas
     void RespawnTea()
     {
-        // Show the tea spill again at original position
         transform.position = originalPosition;
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;
         isCollected = false;
-        
-        Debug.Log("Tea spill respawned!");
     }
 }

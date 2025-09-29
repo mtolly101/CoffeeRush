@@ -6,29 +6,33 @@ public class HealthManager : MonoBehaviour
     public int health = 100;
     public TextMeshProUGUI healthText;
 
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         UpdateHealthDisplay();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+ 
     }
 
     public void TakeDamage(int damage)
     {
         health = health - damage;
 
-        // Don't let health go below 0
         if (health < 0)
         {
             health = 0;
         }
 
-        Debug.Log("Health is now: " + health);
         UpdateHealthDisplay();
 
-        // Check if player died
+        // See if player died
         if (health <= 0)
         {
             YouLose();
-            // You can add game over screen here later
         }
     }
 
@@ -37,22 +41,22 @@ public class HealthManager : MonoBehaviour
         if (healthText != null)
         {
             healthText.text = "Health: " + health;
-            Debug.Log("Updated health display to: Health: " + health);
         }
         else
         {
-            Debug.Log("ERROR: healthText is null!");
+            Debug.Log("Error in health");
         }
     }
     
     void YouLose()
     {
-        Debug.Log("GAME OVER! You died!");
-        
+        TimerManager timer = FindObjectOfType<TimerManager>();
+        if (timer != null) timer.StopTimer();
+
         // Stop the game
         Time.timeScale = 0f;
         
-        // Find and show lose screen
+        // Lose :(
         GameOverScreen gameOverScreen = FindObjectOfType<GameOverScreen>();
         if (gameOverScreen != null)
         {
