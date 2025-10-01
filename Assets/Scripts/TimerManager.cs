@@ -47,7 +47,7 @@ public class TimerManager : MonoBehaviour
     
     void TimeUp()
     {
-        // Check if player won (reached target score)
+        // Check if player won
         ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
         if (scoreManager != null)
         {

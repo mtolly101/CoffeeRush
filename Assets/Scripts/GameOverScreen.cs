@@ -12,6 +12,7 @@ public class GameOverScreen : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Not active
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(false);
@@ -24,6 +25,7 @@ public class GameOverScreen : MonoBehaviour
  
     }
     
+    // Win
     public void ShowWinScreen()
     {
         if (gameOverPanel != null)
@@ -46,17 +48,18 @@ public class GameOverScreen : MonoBehaviour
         }
     }
     
+    // Lose
     public void ShowLoseScreen()
     {
         if (gameOverPanel != null)
         {
             gameOverPanel.SetActive(true);
-        
+
             if (gameOverText != null)
             {
                 gameOverText.text = "You lose :(";
             }
-        
+
             if (finalScoreText != null)
             {
                 ScoreManager scoreManager = FindObjectOfType<ScoreManager>();

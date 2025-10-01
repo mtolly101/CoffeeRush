@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7370833976011966457, guid: 7ef745590261f426f9bc8e3f1c6dec5e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -236,6 +240,10 @@ PrefabInstance:
     - target: {fileID: 6567548266501481482, guid: 7ef745590261f426f9bc8e3f1c6dec5e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7370833976011966457, guid: 7ef745590261f426f9bc8e3f1c6dec5e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -360,25 +368,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166807214}
     m_Modifications:
+    - target: {fileID: 403131512566835650, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.104681835
+      value: 0.081672765
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.104681835
+      value: 0.081672765
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.104681835
+      value: 0.081672765
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.7221198
+      value: 0.6043
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.99984
+      value: -1.882
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.z
@@ -748,25 +760,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166807214}
     m_Modifications:
+    - target: {fileID: 403131512566835650, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.08495435
+      value: 0.06706297
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.08495435
+      value: 0.06706297
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.08495435
+      value: 0.06706297
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.6405
+      value: -16.7321
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.4728
+      value: 6.5644
       objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalPosition.z
@@ -881,6 +897,10 @@ PrefabInstance:
     - target: {fileID: 6330890393832707977, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_Name
       value: CoffeeBeans
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076581924221486979, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9016867874842376054, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
@@ -1575,6 +1595,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166807214}
     m_Modifications:
+    - target: {fileID: 403131512566835650, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.07800733
@@ -1827,6 +1851,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166807214}
     m_Modifications:
+    - target: {fileID: 403131512566835650, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.07800733
@@ -2212,23 +2240,23 @@ PrefabInstance:
       objectReference: {fileID: 4524879931628566662, guid: f81b6012068534c44ae84e1331e20d78, type: 3}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.087905124
+      value: 0.06682548
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.087905124
+      value: 0.06682548
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.087905124
+      value: 0.06682548
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.1765
+      value: -8.2844
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.7388
+      value: 7.8467
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2265,6 +2293,10 @@ PrefabInstance:
     - target: {fileID: 6330890393832707977, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_Name
       value: CoffeeBeans (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076581924221486979, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9016867874842376054, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
@@ -2874,6 +2906,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7370833976011966457, guid: 7ef745590261f426f9bc8e3f1c6dec5e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3023,23 +3059,23 @@ PrefabInstance:
       objectReference: {fileID: 4524879931628566662, guid: f81b6012068534c44ae84e1331e20d78, type: 3}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.088298015
+      value: 0.06300946
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.088298015
+      value: 0.06300946
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.088298015
+      value: 0.06300946
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.7912
+      value: -11.9207
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.4735
+      value: 2.603
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3076,6 +3112,10 @@ PrefabInstance:
     - target: {fileID: 6330890393832707977, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_Name
       value: CoffeeBeans (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076581924221486979, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9016867874842376054, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
@@ -3238,23 +3278,23 @@ PrefabInstance:
       objectReference: {fileID: 4524879931628566662, guid: f81b6012068534c44ae84e1331e20d78, type: 3}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.0696313
+      value: 0.059096083
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.0696313
+      value: 0.059096083
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.0696313
+      value: 0.059096083
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.4454
+      value: -16.4994
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.0808
+      value: -4.0268
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3291,6 +3331,10 @@ PrefabInstance:
     - target: {fileID: 6330890393832707977, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_Name
       value: CoffeeBeans (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9076581924221486979, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9016867874842376054, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
@@ -3627,23 +3671,23 @@ PrefabInstance:
       objectReference: {fileID: 4524879931628566662, guid: f81b6012068534c44ae84e1331e20d78, type: 3}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.072169974
+      value: 0.057418432
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.072169974
+      value: 0.057418432
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.072169974
+      value: 0.057418432
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.3955
+      value: -4.471
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9522
+      value: -2.8767
       objectReference: {fileID: 0}
     - target: {fileID: 3608490518123577106, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3681,6 +3725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoffeeBeans (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9076581924221486979, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9016867874842376054, guid: 814b29c4aa6af4bbca351ef1f87d7149, type: 3}
     m_RemovedGameObjects: []
@@ -3700,6 +3748,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166807214}
     m_Modifications:
+    - target: {fileID: 403131512566835650, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2772400551505089795, guid: d4f8f91cca683451293d02eff2d79775, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.07376954

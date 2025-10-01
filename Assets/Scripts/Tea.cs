@@ -9,6 +9,7 @@ public class Tea : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Keep in same spot
         originalPosition = transform.position;
     }
 
@@ -29,7 +30,7 @@ public class Tea : MonoBehaviour
                 Instantiate(teaEffect, transform.position, Quaternion.identity);
             }
             
-            // Damage
+            // Take damage
             GameObject healthManagerObj = GameObject.Find("HealthManager");
             if (healthManagerObj != null)
             {
@@ -51,6 +52,7 @@ public class Tea : MonoBehaviour
     // Respawn teas
     void RespawnTea()
     {
+        // Keep in same spot
         transform.position = originalPosition;
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;

@@ -9,6 +9,7 @@ public class CoffeeBean : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Keep in same spot
         originalPosition = transform.position;
     }
     
@@ -51,6 +52,7 @@ public class CoffeeBean : MonoBehaviour
     // Respawn
     void RespawnCoffeeBean()
     {
+        // Keep in same spot
         transform.position = originalPosition;
         GetComponent<SpriteRenderer>().enabled = true;
         GetComponent<Collider2D>().enabled = true;

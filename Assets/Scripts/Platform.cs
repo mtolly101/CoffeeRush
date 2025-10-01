@@ -9,6 +9,7 @@ public class Platform : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Stop it from turning so its stationary
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
         rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;

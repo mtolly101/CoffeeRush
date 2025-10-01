@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        // Stop player from moving so its stationary
         rb = GetComponent<Rigidbody2D>();
         rb.freezeRotation = true;
     }
